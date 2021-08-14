@@ -7,7 +7,6 @@
     <title>Personalized TODO</title>
     <link rel="stylesheet" href="TODO.css" type="text/css">
     <script src="https://kit.fontawesome.com/a9a20b01b1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css" type="text/css">
 </head>
 <body>
     <div>To Do List</div>
@@ -17,8 +16,8 @@
     </form>
     <table>
         <?php
-            $CON=mysqli_connect("localhost","root","","todo");
-            $QUERY="select * from todo";
+            $CON=mysqli_connect("localhost","root","","database_name");
+            $QUERY="select * from table_name";
             $RESULT=mysqli_query($CON,$QUERY);
             if(mysqli_num_rows($RESULT)>0){
                 while($DATA=mysqli_fetch_assoc($RESULT)){
