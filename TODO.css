@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: grid;
+    place-items: center;
+    background-color: whitesmoke;
+    font-family: 'Segoe UI';
+}
+div{
+    font-size: 40px;
+    padding: 25px;
+}
+.fa-check-circle{
+    color: rgb(21, 161, 21);
+}
+.fa-check-circle:hover{
+    color: black;
+}
+.fa-edit{
+    color: rgb(6, 165, 228);
+}
+.fa-edit:hover{
+    color: black;
+}
+.fa-times-circle{
+    color: rgb(202, 11, 11);
+}
+.fa-times-circle:hover{
+    color: black;
+}
+input[type="text"]{
+    background-color: white;
+    border: solid rgb(21, 161, 21) 2px;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+}
+input[type="submit"]{
+    background-color: transparent;
+    border: solid rgb(21, 161, 21) 2px;
+    color: rgb(21, 161, 21);
+    border-radius: 4px;
+    padding: 5px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(21, 161, 21);
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+#butn{
+    background-color: transparent;
+    border: solid rgb(202, 11, 11) 2px;
+    color: rgb(202, 11, 11);
+    border-radius: 4px;
+    padding: 5px;
+}
+#butn:hover{
+    background-color: rgb(202, 11, 11);
+    color: whitesmoke;
+}
+#icons{
+    padding-top: 20px;
+    text-align: center;
+    width: 25px;
+}
+#data{
+    text-align: left;
+    font-size: 25px;
+    padding-top: 20px;
+    width: 500px;
+
+}
+#date{
+    text-align: left;
+    font-size: 15px;
+}
